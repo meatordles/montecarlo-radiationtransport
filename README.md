@@ -1,10 +1,11 @@
-# We have Monte Carlo radiation transport simulator at home
-Numerous far more polished and advanced software created by professionals already exist for serious use. This is an exercise for mental and academic enrichment only.
-# Goals
-## Basic 
+<img height="360" alt="ax17tc" src="https://github.com/user-attachments/assets/38bb09c6-7411-420f-adf8-8423412d0b81" />
+
+Numerous immeasureably more polished and advanced software created by professionals already exist for serious use. This is an exercise for mental and academic enrichment only.  
+# Capabilities
+## Basic goals
 - simulate alpha, beta, and gamma radiation transport within a customizable region  
 - give physically useful graphical output  
-## Model 1
+## Model 1 objectives
 - particles logged individually in a struct vector for easy spawning of secondary particles  
     - particle(type, energy, X, Y, direction)  
 - modularization  
@@ -22,7 +23,7 @@ Numerous far more polished and advanced software created by professionals alread
         - v1.m  
 - neutron simulator? think about it  
 
-## Model 2
+## Model 2 objectives
 - GUI  
     - default 3 panel layout  
     - undockable windows  
@@ -37,32 +38,29 @@ Numerous far more polished and advanced software created by professionals alread
 - dose rate and dose map  
     - activity slider and time slider  
 
-# History
-## v0
-2026 07 05
+# History and Changelog
+## v0 | 2026 07 05
 - image import and processing  
 - particle parameters
+<img height="360" alt="7kfib4" src="https://github.com/user-attachments/assets/b8120899-df16-461c-bcd7-5b3014ad7679" />
+
 <img height="360" alt="Screenshot 2026-07-19 110450" src="https://github.com/user-attachments/assets/fd8d8d61-f9d0-45d2-aba2-5367de8625f7" />
 
-## v0_1
-2026 07 07
+## v0_1 | 2026 07 07
 - alpha simulator  
 - deposition map  
-## v0_2
-2026 07 17
+## v0_2 | 2026 07 17
 - beta simulator
 <img height="360" alt="image" src="https://github.com/user-attachments/assets/61728471-71dc-43bc-b8d2-d5284aa8c644" />
 
-## v0_3
-2026 07 19  
+## v0_3 | 2026 07 19  
 - gamma simulator
 - dose map
 <img height="360" alt="image" src="https://github.com/user-attachments/assets/252ac5ce-e3ff-44e0-9677-92f6f94f17c8" />
 
 <img height="360" alt="image" src="https://github.com/user-attachments/assets/edc6ad42-9e16-4f94-aaec-c22a70288624" />
 
-## v0_4
-2026 07 20
+## v0_4 | 2026 07 20
 - added material boundary checks to gamma simulator, fixing gammas instantly vanishing if starting position was in a material that produced a free path length larger than the physical bounds of the simulation
 - refined and expanded output graphics
 - fixed some typos
