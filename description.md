@@ -1,14 +1,6 @@
-### v0:  
-- image import and processing  
-- particle parameters  
-### v0_1:  
-- alpha simulator  
-- deposition map  
-### v0_2:  
-- beta simulator  
-### v0_3:  
-- gamma simulator
+# Home-brew Monte Carlo radiation transport simulator
 
+## Goals
 ### Model 1 goals:  
 - particles logged individually in a struct vector for easy spawning of secondary particles  
     - particle(type, energy, X, Y, direction)  
@@ -41,3 +33,15 @@
     - highlight the most recent samples? may be too expensive to justify the pretty colors  
 - dose rate and dose map  
     - activity slider and time slider  
+
+## History
+### v0:  
+- image import and processing  
+- particle parameters  
+### v0_1:  
+- alpha simulator  
+- deposition map  
+### v0_2:  
+- beta simulator  
+### v0_3:  
+- gamma simulator
