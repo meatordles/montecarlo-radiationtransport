@@ -1,5 +1,5 @@
 # Home-brew Monte Carlo radiation transport simulator
-
+Numerous far more polished and advanced software created by professionals already exist for serious use. This is an exercise for mental and academic enrichment only.
 ## Goals
 ### Model 1 goals:  
 - particles logged individually in a struct vector for easy spawning of secondary particles  
