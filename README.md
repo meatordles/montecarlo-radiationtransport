@@ -1,3 +1,4 @@
+# Monte Carlo radiation transport simulator at home
 <img height="360" alt="ax17tc" src="https://github.com/user-attachments/assets/38bb09c6-7411-420f-adf8-8423412d0b81" />
 
 Numerous immeasureably more polished and advanced software created by professionals already exist for serious use. This is an exercise for mental and academic enrichment only.  
@@ -54,13 +55,15 @@ Numerous immeasureably more polished and advanced software created by profession
 <img height="360" alt="image" src="https://github.com/user-attachments/assets/61728471-71dc-43bc-b8d2-d5284aa8c644" />
 
 ## v0_3 | 2026 07 19  
+Setting the background medium to air causes both energy deposition and dose to vanish.
 - gamma simulator
 - dose map
 <img height="360" alt="image" src="https://github.com/user-attachments/assets/252ac5ce-e3ff-44e0-9677-92f6f94f17c8" />
 
 <img height="360" alt="image" src="https://github.com/user-attachments/assets/edc6ad42-9e16-4f94-aaec-c22a70288624" />
 
-## v0_4 | 2026 07 20
+## v0_4 | 2026 07 20 
+Not actually functional due to several fatal errors. These were overlooked because the below output was generated in the command window, so the erroneous code was never run.
 - added material boundary checks to gamma simulator, fixing gammas instantly vanishing if starting position was in a material that produced a free path length larger than the physical bounds of the simulation
 - refined and expanded output graphics
 - fixed some typos
@@ -78,3 +81,30 @@ Numerous immeasureably more polished and advanced software created by profession
 <img height="180" alt="Gamma, David, Lead-Air, 100-cm, 6 MeV, 1000000-n, 6-Dose" src="https://github.com/user-attachments/assets/fe8de4a0-6b1b-40d0-bfb4-15bd792bd768" />
 
 <img height="180" alt="Gamma, David, Lead-Air, 100-cm, 6 MeV, 1000000-n, 7-Regions" src="https://github.com/user-attachments/assets/4893b5a7-749c-47ab-ad14-053d5b2ebaa7" />
+
+## v0_5 | 2026 07 20
+Works excellently. Only the particle log structure vector and rearranging of the simulation cycles prevent this from being numbered "v1_0". Also maybe a estimated time to completion for the simulation.
+- fixed fatal errors  
+- refined input dialogs  
+- further refined and expanded output graphics  
+    - changed default colormap to "turbo" for better visibility (also it looks like Tame Impala which is actually just one guy did you know that?)  
+    - added data cursor to extract values from graphics  
+- separated functions into individual files  
+- added table of contents  
+- added headers and descriptions  
+- indented sections according to table of contents
+<img height="180" alt="Gamma, David, Lead-Water, 100-cm, 10 MeV, 1000000-n, 1-Cumulative Deposition" src="https://github.com/user-attachments/assets/2f9123c8-85e2-450d-b7f9-c871528dec50" />
+
+<img height="180" alt="Gamma, David, Lead-Water, 100-cm, 10 MeV, 1000000-n, 2-Photoelectric Deposition" src="https://github.com/user-attachments/assets/9d898a57-0d4b-4442-aef4-f98db884b4bb" />
+
+<img height="180" alt="Gamma, David, Lead-Water, 100-cm, 10 MeV, 1000000-n, 3-Compton Deposition" src="https://github.com/user-attachments/assets/e996decc-2678-4d56-8303-5a753c3985bf" />
+
+<img height="180" alt="Gamma, David, Lead-Water, 100-cm, 10 MeV, 1000000-n, 4-Pair Production Deposition" src="https://github.com/user-attachments/assets/bf2920a2-198f-45e4-b114-1c0a54f5e5f6" />
+
+<img height="180" alt="Gamma, David, Lead-Water, 100-cm, 10 MeV, 1000000-n, 5-Deposition Quadplot" src="https://github.com/user-attachments/assets/26c13722-2f2e-44c8-9f0d-668dc5ade160" />
+
+<img height="180" alt="Gamma, David, Lead-Water, 100-cm, 10 MeV, 1000000-n, 6-Dose" src="https://github.com/user-attachments/assets/dc21490d-7549-42db-8b96-bc8329033669" />
+
+<img height="180" alt="Gamma, David, Lead-Water, 100-cm, 10 MeV, 1000000-n, 7-Material Regions" src="https://github.com/user-attachments/assets/7296ecb6-b8cd-4a14-be4a-611b8feca8bd" />
+
+<img height="180" alt="Gamma, David, Lead-Water, 100-cm, 10 MeV, 1000000-n, 8-Imported Image" src="https://github.com/user-attachments/assets/82362d34-3569-4b0e-b565-1b24be616dcb" />
