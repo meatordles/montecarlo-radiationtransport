@@ -108,3 +108,18 @@ Works excellently. Only the particle log structure vector and rearranging of the
 <img height="180" alt="Gamma, David, Lead-Water, 100-cm, 10 MeV, 1000000-n, 7-Material Regions" src="https://github.com/user-attachments/assets/7296ecb6-b8cd-4a14-be4a-611b8feca8bd" />
 
 <img height="180" alt="Gamma, David, Lead-Water, 100-cm, 10 MeV, 1000000-n, 8-Imported Image" src="https://github.com/user-attachments/assets/82362d34-3569-4b0e-b565-1b24be616dcb" />
+
+## v0_6 | 2026 08 11
+Further refining of UI before full sprint to v1
+- added a bunch of error messages
+- added autoexport figures
+- fixed some NaN issues
+<img height="180" alt="Beta, Gem alert!, air-water, 10-cm, 1000-px, 1 42-MeV, 500000-n, Figure 1---Deposition" src="https://github.com/user-attachments/assets/df566d16-d094-45b1-9189-8bfb9d62723d" />
+
+<img height="180" alt="Beta, Gem alert!, air-water, 10-cm, 1000-px, 1 42-MeV, 500000-n, Figure 2---Dose" src="https://github.com/user-attachments/assets/1ef45605-77ce-48c1-92cc-0f076fb9912f" />
+
+<img height="180" alt="Beta, Gem alert!, air-water, 10-cm, 1000-px, 1 42-MeV, 500000-n, Figure 3---Material Regions" src="https://github.com/user-attachments/assets/f27fdd50-9377-4dd0-bd49-226144a25c73" />
+
+<img height="180" alt="Beta, Gem alert!, air-water, 10-cm, 1000-px, 1 42-MeV, 500000-n, Figure 4---Imported Image" src="https://github.com/user-attachments/assets/7c18334b-f478-4f75-8fc9-7b9d543ebfde" />
+
+<img height="180" alt="Screenshot 2026-08-11 214959" src="https://github.com/user-attachments/assets/c0ea2b0a-6b3c-4dc8-bf4e-3bd44d7303ca" />
