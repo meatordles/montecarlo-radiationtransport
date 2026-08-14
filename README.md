@@ -1,12 +1,12 @@
 # Monte Carlo radiation transport simulator at home
 <img height="360" alt="ax17tc" src="https://github.com/user-attachments/assets/38bb09c6-7411-420f-adf8-8423412d0b81" />
 
-Numerous immeasureably more polished and advanced software created by professionals already exist for serious use. This is an exercise for mental and academic enrichment only.  
+Numerous immeasurably more polished and advanced software created by professionals already exist for serious use. This is an exercise for mental and academic enrichment only.  
 # Capabilities
 ## Basic goals
 - simulate alpha, beta, and gamma radiation transport within a customizable region  
 - give physically useful graphical output  
-## Model 1 objectives
+## Version 1 objectives
 - particles logged individually in a struct vector for easy spawning of secondary particles  
     - particle(type, energy, X, Y, direction)  
 - modularization  
@@ -24,7 +24,7 @@ Numerous immeasureably more polished and advanced software created by profession
         - v1.m  
 - neutron simulator? think about it  
 
-## Model 2 objectives
+## Version 2 objectives
 - GUI  
     - default 3 panel layout  
     - undockable windows  
@@ -123,3 +123,6 @@ Further refining of UI before full sprint to v1
 <img height="180" alt="Beta, Gem alert!, air-water, 10-cm, 1000-px, 1 42-MeV, 500000-n, Figure 4---Imported Image" src="https://github.com/user-attachments/assets/7c18334b-f478-4f75-8fc9-7b9d543ebfde" />
 
 <img height="180" alt="Screenshot 2026-08-11 214959" src="https://github.com/user-attachments/assets/c0ea2b0a-6b3c-4dc8-bf4e-3bd44d7303ca" />
+
+## v1_0 | 2026 08 14
+Goals of version 1 accomplished.
