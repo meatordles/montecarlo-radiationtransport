@@ -26,11 +26,12 @@ Numerous immeasurably more polished and advanced software created by professiona
 
 ## Version 2 objectives
 - GUI  
-    - default 3 panel layout  
-    - undockable windows  
+    - default 3 panel layout: target parameters, source parameters, and output  
+    - undockable windows
+    - time to completion
+    - Z_eff calculator
 - unlimited material count  
     - materials selectable with cursor  
-    - Z and A calculator  
 - expanded particle parameters, visualized and settable with cursor on image  
     - spawn point/zone  
     - spawn direction/emission arc  
@@ -112,6 +113,7 @@ Works excellently. Only the particle log structure vector and rearranging of the
 ## v0_6 | 2026 08 11
 Further refining of UI before full sprint to v1
 - added a bunch of error messages
+- added output stats
 - added autoexport figures
 - fixed some NaN issues
 <img height="180" alt="Beta, Gem alert!, air-water, 10-cm, 1000-px, 1 42-MeV, 500000-n, Figure 1---Deposition" src="https://github.com/user-attachments/assets/df566d16-d094-45b1-9189-8bfb9d62723d" />
@@ -125,4 +127,21 @@ Further refining of UI before full sprint to v1
 <img height="180" alt="Screenshot 2026-08-11 214959" src="https://github.com/user-attachments/assets/c0ea2b0a-6b3c-4dc8-bf4e-3bd44d7303ca" />
 
 ## v1_0 | 2026 08 14
-Goals of version 1 accomplished.
+Goals of version 1 accomplished.  
+Issues:
+- slows down immensely in the last 10% of samples. Secondary particles also seem to stop spawning, based on the waitbar.
+<img height="180" alt="Gamma, Anatomy of a Hug, air-bone, 50-cm, 1000-px, 7-MeV, 1000000-n, Figure 1---Cumulative Deposition" src="https://github.com/user-attachments/assets/2b3f8b9b-8aba-4331-95a8-c31017247b31" />
+
+<img height="180" alt="Gamma, Anatomy of a Hug, air-bone, 50-cm, 1000-px, 7-MeV, 1000000-n, Figure 2---Photoelectric Deposition" src="https://github.com/user-attachments/assets/e2b67d0f-3ddb-4bd6-a343-2b292fc8445a" />
+
+<img height="180" alt="Gamma, Anatomy of a Hug, air-bone, 50-cm, 1000-px, 7-MeV, 1000000-n, Figure 3---Compton Deposition" src="https://github.com/user-attachments/assets/bf0f0467-9d11-40ab-a8ab-cf772cb3830d" />
+
+<img height="180" alt="Gamma, Anatomy of a Hug, air-bone, 50-cm, 1000-px, 7-MeV, 1000000-n, Figure 4---Pair Production Deposition" src="https://github.com/user-attachments/assets/76beea42-b99c-487a-af69-113b539a86cd" />
+
+<img height="180" alt="Gamma, Anatomy of a Hug, air-bone, 50-cm, 1000-px, 7-MeV, 1000000-n, Figure 5---Deposition Quadplot" src="https://github.com/user-attachments/assets/aaae72e6-be78-44e5-81d4-0b2dcdbb8d61" />
+
+<img height="180" alt="Gamma, Anatomy of a Hug, air-bone, 50-cm, 1000-px, 7-MeV, 1000000-n, Figure 6---Dose" src="https://github.com/user-attachments/assets/ca2c8e21-d013-434b-b379-51123596a30b" />
+
+<img height="180" alt="Gamma, Anatomy of a Hug, air-bone, 50-cm, 1000-px, 7-MeV, 1000000-n, Figure 7---Material Regions" src="https://github.com/user-attachments/assets/99430e12-0e19-40f0-a0ef-7df29eb97c41" />
+
+<img height="180" alt="Gamma, Anatomy of a Hug, air-bone, 50-cm, 1000-px, 7-MeV, 1000000-n, Figure 8---Imported Image" src="https://github.com/user-attachments/assets/2efbe38c-f010-434f-b51b-097bf47fb4b5" />
